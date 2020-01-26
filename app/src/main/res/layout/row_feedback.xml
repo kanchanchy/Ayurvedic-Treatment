@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:paddingBottom="1dp"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".4"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:background="@color/colorGrayLight"
+        android:text="Kanchan"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginRight="1dp"/>
+
+    <TextView
+        android:id="@+id/txtDetails"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".6"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:background="@color/colorGrayLight"
+        android:textColor="@color/colorBlack"
+        android:text="This is an awsome application for ayurvedic treatment" />
+
+</LinearLayout>
