@@ -127,7 +127,7 @@ public class PrescriptionDetailsActivity extends AppCompatActivity implements Vi
         body += "Patient's Problem: " + edtProbDetails.getText().toString().trim() +"\n\n";
         body += "Please send proper prescription to the patient's email address. Thank you.";
 
-        String[] TO = {"pinky.r.d.003@gmail.com"};
+        String[] TO = {EMAIL_ADDRESS_OF_DOCTOR};
         String[] CC = {};
         Intent emailIntent = new Intent(Intent.ACTION_SEND);
 
