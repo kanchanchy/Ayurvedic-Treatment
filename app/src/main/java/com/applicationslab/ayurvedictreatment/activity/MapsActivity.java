@@ -54,7 +54,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private static final int REQUEST_PERMISSION_ACCESS_FINE_LOCATION = 1;
     private static final int REQUEST_PERMISSION_WRITE_EXTERNAL_STORAGE = 2;
     private static final int REQUEST_PERMISSION_ACCESS_FINE_WRITE_EXTERNAL = 3;
-    String PLACES_API_KEY="AIzaSyDesq3ayBFI3h9nwZId4-2HRtGFoa4XDtQ";
+    String PLACES_API_KEY="YOUR_PLACES_API_KEY";
 
     PlacesClient placesClient;
     PermissionHandler permission;
